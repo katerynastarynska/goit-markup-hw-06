@@ -462,9 +462,24 @@ body {
   text-align: left;
   justify-content: center;
 }
+.footer-mailing-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: left;
+  justify-content: center;
+}
 .footer-social {
   padding-top: 72px;
   padding-bottom: 100px;
+  margin-right: 93px;
+}
+.footer-mailing {
+  padding-top: 72px;
+  padding-bottom: 94px;
 }
 .footer-social-item {
   width: 44px;
@@ -499,6 +514,54 @@ body {
 .footer-social-icon {
   fill: #ffffff ;
 }
+.mailing-input {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  width: 358px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: 12px;
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  outline: transparent;
+}
+.mailing-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mailing-btn {
+  display: flex;
+  margin: 0 auto;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.06em;
+  width: 200px; 
+  height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: var(--button-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+  outline: transparent;
+}
+.mailing-wrap {
+  display: flex;
+}
+.mailing-icon {
+  margin-left: 10px;
+}
+
 /* ---------PORTFOLIO-FILTER------ */
 .filter {
   padding-top: 94px;

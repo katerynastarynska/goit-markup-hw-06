@@ -443,10 +443,22 @@
           </li>
         </ul>
       </div>
+      <div class="footer-mailing">
+        <h2 class="footer-mailing-title">Подпишитесь на рассылку</h2>
+        <form action="#" class="mailing-form">
+          <div class="mailing-wrap">
+            <input type="email" name="mailing-email" class="mailing-input" placeholder="E-mail" required>
+            <button type="submit" class="btn mailing-btn">Подписаться<svg class="mailing-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </footer>
 
-  <div class="backdrop" data-modal>
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button type="button" class="modal-close" data-modal-close>
         <svg class="icon-close" width="18" height="18">
@@ -492,13 +504,14 @@
         <input type="checkbox" name="agreement" id="modal-check" class="modal-check visually-hidden">
         <label for="modal-check" class="agreement-text"><span><svg class="icon-checkmark" width="16" height="15">
               <use href="./images/icons.svg#icon-checkmark"></use>
-            </svg></span>Соглашаюсь с рассылкой и принимаю&nbsp<a href="" class="agreemnet-link">Условия договора</a></label>
+            </svg></span>Соглашаюсь с рассылкой и принимаю&nbsp<a href="" class="agreemnet-link">Условия
+            договора</a></label>
       </div>
 
       <button type="submit" class="btn modal-btn">Отправить</button>
     </div>
   </div>
-  <!-- <script src="./js/modal.js"></script> -->
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
